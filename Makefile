@@ -1,4 +1,4 @@
-NAME_BIN=sample
+NAME_BIN=sample.lib
 NAME_SUBS=
 
 DIR_INC=include
