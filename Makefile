@@ -1,4 +1,4 @@
-NAME_BIN=binary
+NAME_BIN=sample
 NAME_SUBS=
 
 DIR_INC=include
@@ -10,7 +10,7 @@ FLAGS_ASM=
 FLAGS_C=
 FLAGS_CPP=
 
-LINK=lib /NODEFAULTLIB /SUBSYSTEM:WINDOWS
+LINK=lib
 
 !IF !DEFINED(VSCMD_ARG_TGT_ARCH) || !DEFINED(AS) || !DEFINED(CC) || !DEFINED(CPP)
 !ERROR "Not all macros are defined! (Did you use VS Development Powershell/Command Prompt?)"
